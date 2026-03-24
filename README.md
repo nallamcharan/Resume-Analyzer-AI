@@ -50,29 +50,21 @@ This application helps users analyze their resumes against job descriptions and 
 
 ## 1️⃣ Clone the Repository
 
-```
 git clone https://github.com/your-username/ai-resume-analyzer.git
 cd ai-resume-analyzer
 
 ### 2️⃣ Install Dependencies
 
-```
 pip install -r requirements.txt
-```
-
----
 
 ## 3️⃣ Set Environment Variable
 
 ⚠️ Do NOT hardcode your API key.
 
-```
 export HUGGINGFACEHUB_API_TOKEN="your_api_token"
-```
 
-### 4️⃣ Run the App
+## 4️⃣ Run the App
 
-```
 streamlit run app.py
 
 
