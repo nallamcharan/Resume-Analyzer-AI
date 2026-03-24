@@ -2,8 +2,6 @@
 An intelligent **AI-powered Resume Analyzer** built using **Streamlit + LangChain + Hugging Face**.
 This application helps users analyze their resumes against job descriptions and provides actionable insights like ATS score, missing skills, and improvement suggestions.
 
----
-
 ## 🚀 Features
 
 * 📄 Upload Resume (PDF, DOCX, TXT)
@@ -12,9 +10,7 @@ This application helps users analyze their resumes against job descriptions and 
 * 🔍 Missing Keywords Detection
 * 💡 Strong Suggestions for Improvement
 * ✨ Clean and interactive UI using Streamlit
-
----
-
+* 
 ## 🛠️ Tech Stack
 
 * **Frontend/UI:** Streamlit
@@ -25,35 +21,6 @@ This application helps users analyze their resumes against job descriptions and 
   * pypdf
   * python-docx
   * langchain-huggingface
-
-## ⚙️ Installation
-
-### 1️⃣ Clone the Repository
-
-```
-git clone https://github.com/your-username/ai-resume-analyzer.git
-cd ai-resume-analyzer
-
-### 2️⃣ Install Dependencies
-
-```
-pip install -r requirements.txt
-```
-
----
-
-### 3️⃣ Set Environment Variable
-
-⚠️ Do NOT hardcode your API key.
-
-```
-export HUGGINGFACEHUB_API_TOKEN="your_api_token"
-```
-
-### 4️⃣ Run the App
-
-```
-streamlit run app.py
 
 ## 🧠 How It Works
 
@@ -78,4 +45,34 @@ streamlit run app.py
 
 * 🧾 Resume rewriting suggestions
 * 🌐 Deployment with Streamlit Cloud
+
+## ⚙️ Installation
+
+## 1️⃣ Clone the Repository
+
+```
+git clone https://github.com/your-username/ai-resume-analyzer.git
+cd ai-resume-analyzer
+
+### 2️⃣ Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+## 3️⃣ Set Environment Variable
+
+⚠️ Do NOT hardcode your API key.
+
+```
+export HUGGINGFACEHUB_API_TOKEN="your_api_token"
+```
+
+### 4️⃣ Run the App
+
+```
+streamlit run app.py
+
 
