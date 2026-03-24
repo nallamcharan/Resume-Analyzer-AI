@@ -1,4 +1,4 @@
-from langchain_community.llms import HuggingFaceEndpoint
+from langchain_huggingface import HuggingFaceEndpoint
 from langchain_huggingface import ChatHuggingFace
 import streamlit as st 
 from pypdf import PdfReader
@@ -6,7 +6,8 @@ import docx
 import os 
 
 #pass apikey 
-token  = os.getenv('HuggingFaceHub_API_Token') 
+
+os.environ['HuggingFaceHub_API_Token'] = "your_api_token"
 
 #title
 st.title("AI Resume Analyzer")
